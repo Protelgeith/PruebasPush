@@ -46,7 +46,7 @@ module.exports = class AuthController {
 
         //this info should be delivered by the database
         const userFromDb = {
-            userId: '1111-2222-3333-4444',
+            userId: '1111-2222-3333-5',
             workEmail: 'santiago2@supernaut.io'
         }
 
@@ -75,8 +75,7 @@ module.exports = class AuthController {
             response.userPermissions.everfi = false;
             response.userPermissions.questis = true;
             response.userPermissions.tcgService = true;
-        }
-        else {
+        } else {
             response.errors.push("Invalid request.");
         }
 
@@ -186,13 +185,12 @@ module.exports = class AuthController {
 
                     resolve(response);
                 },
-                onFailure: function (error) {
+                onFailure: function(error) {
                     response.userData = null;
 
                     if (AwsUtils.isObject(error) && error.hasOwnProperty('message')) {
                         response.errors.push(error.message);
-                    }
-                    else {
+                    } else {
                         response.errors.push(error);
                     }
 
