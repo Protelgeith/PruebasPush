@@ -45,8 +45,8 @@ module.exports = class SSOController {
                         { name: "email", valueTag: "userEmail", nameFormat: "urn:oasis:names:tc:SAML:2.0:attrname-format:basic", valueXsiType: "xs:string" },
                         { name: "last_name", valueTag: "userLastName", nameFormat: "urn:oasis:names:tc:SAML:2.0:attrname-format:basic", valueXsiType: "xs:string" },
                         { name: "first_name", valueTag: "userFirstName", nameFormat: "urn:oasis:names:tc:SAML:2.0:attrname-format:basic", valueXsiType: "xs:string" },
-                        { name: "plan_id", valueTag: "userPlanId", nameFormat: "urn:oasis:names:tc:SAML:2.0:attrname-format:basic", valueXsiType: "xs:string" },
-                        { name: "external_id", valueTag: "userExternalId", nameFormat: "urn:oasis:names:tc:SAML:2.0:attrname-format:basic", valueXsiType: "xs:string" }
+                        { name: "plan_id", valueTag: "userPlanId", nameFormat: "urn:oasis:names:tc:SAML:2.0:attrname-format:basic", valueXsiType: "xs:string" }
+
                     ];
                 }
         }
