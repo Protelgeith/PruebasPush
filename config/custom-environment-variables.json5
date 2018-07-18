@@ -1,0 +1,13 @@
+{
+    environment: {
+        "ALLOWORIGIN": "ALLOWORIGIN",
+        "USERPOOLID": "USERPOOLID"
+    },
+    dbConn: {
+        "PGUSER": "PGUSER",
+        "PGHOST": "PGHOST",
+        "PGPASSWORD": "PGPASSWORD",
+        "PGDATABASE": "PGDATABASE",
+        "PGPORT": "PGPORT"
+    }
+}

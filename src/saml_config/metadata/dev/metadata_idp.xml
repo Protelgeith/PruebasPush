@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" validUntil="2018-07-08T16:14:58Z" cacheDuration="PT1531498498S" entityID="http://devbot_mty_183:8009">
+  <md:IDPSSODescriptor WantAuthnRequestsSigned="false" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIICMjCCAZugAwIBAgIBADANBgkqhkiG9w0BAQ0FADA2MQswCQYDVQQGEwJ1czELMAkGA1UECAwCVFgxDDAKBgNVBAoMA09SRzEMMAoGA1UEAwwDT1JHMB4XDTE4MDcwNjE2MDcwNVoXDTE5MDcwNjE2MDcwNVowNjELMAkGA1UEBhMCdXMxCzAJBgNVBAgMAlRYMQwwCgYDVQQKDANPUkcxDDAKBgNVBAMMA09SRzCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAlmNGG+xjUbOzKps6xossuM8tV6a5PLhZuhzdfF+FfYNN+IIh+JGBffxFekLbcyk1myBapDwHQTyHxDR8HqkqHZNW8zfQEWCaMxslEdrgTFK6gsinm2Uaxby/BtRRh5kBuoSP2zj1XsxogivavFiQAYLZAMGGQ74qgx9CJMHAXCUCAwEAAaNQME4wHQYDVR0OBBYEFDHkTnRYrywEbu2mOEB8+w9qrCmzMB8GA1UdIwQYMBaAFDHkTnRYrywEbu2mOEB8+w9qrCmzMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQENBQADgYEAitYNI0fks75QBARPa1DvSNiRh2ZJnbWgM/7xjbbVLY1wSDWBUhGFSc9g7blC8wBNXvMnnAOixGPvmMxE4i2Ig2x/DQZ4DrTBj2mwhDjYR49vI1W24COm7JH2dB90cxxtG2dYNAILk41o3zvklEvzy1PGBbtopuXJI0UXhjFMBio=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIICMjCCAZugAwIBAgIBADANBgkqhkiG9w0BAQ0FADA2MQswCQYDVQQGEwJ1czELMAkGA1UECAwCVFgxDDAKBgNVBAoMA09SRzEMMAoGA1UEAwwDT1JHMB4XDTE4MDcwNjE2MDcwNVoXDTE5MDcwNjE2MDcwNVowNjELMAkGA1UEBhMCdXMxCzAJBgNVBAgMAlRYMQwwCgYDVQQKDANPUkcxDDAKBgNVBAMMA09SRzCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAlmNGG+xjUbOzKps6xossuM8tV6a5PLhZuhzdfF+FfYNN+IIh+JGBffxFekLbcyk1myBapDwHQTyHxDR8HqkqHZNW8zfQEWCaMxslEdrgTFK6gsinm2Uaxby/BtRRh5kBuoSP2zj1XsxogivavFiQAYLZAMGGQ74qgx9CJMHAXCUCAwEAAaNQME4wHQYDVR0OBBYEFDHkTnRYrywEbu2mOEB8+w9qrCmzMB8GA1UdIwQYMBaAFDHkTnRYrywEbu2mOEB8+w9qrCmzMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQENBQADgYEAitYNI0fks75QBARPa1DvSNiRh2ZJnbWgM/7xjbbVLY1wSDWBUhGFSc9g7blC8wBNXvMnnAOixGPvmMxE4i2Ig2x/DQZ4DrTBj2mwhDjYR49vI1W24COm7JH2dB90cxxtG2dYNAILk41o3zvklEvzy1PGBbtopuXJI0UXhjFMBio=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified</md:NameIDFormat>
+    <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://api.staging.myquestis.com/api/v1/sso/acs/cTgNjxsdCRfrQxb4"/>
+  </md:IDPSSODescriptor>
+</md:EntityDescriptor>

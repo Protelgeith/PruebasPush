@@ -1,0 +1,48 @@
+{
+  "name": "tct-sso-api",
+  "version": "1.0.0",
+  "description": "API TCG SSO API",
+  "main": "src/server.js",
+  "scripts": {
+    "test": "./node_modules/.bin/eslint .",
+    "start": "nodemon src/server.js",
+    "debug": "nodemon --inspect-brk src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "Supernaut, LLC",
+  "license": "ISC",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "devDependencies": {
+    "babel-eslint": "^8.1.2",
+    "eslint": "^4.14.0",
+    "nodemon": "^1.14.11"
+  },
+  "dependencies": {
+    "amazon-cognito-identity-js": "^2.0.11",
+    "aws-sdk": "^2.262.1",
+    "bluebird": "^3.5.1",
+    "boom": "^7.1.1",
+    "chalk": "^2.3.0",
+    "config": "^1.29.0",
+    "glue": "^5.0.0",
+    "hapi": "^17.2.0",
+    "hapi-auth-bearer-token": "^6.0.1",
+    "hapi-boom-decorators": "^4.0.0",
+    "joi": "^13.4.0",
+    "joi-date-extensions": "^1.2.0",
+    "jsonwebtoken": "^8.3.0",
+    "moment": "^2.22.2",
+    "moment-duration-format": "^2.2.2",
+    "node-fetch": "^2.1.2",
+    "pg": "^7.4.3",
+    "samlify": "^2.3.7",
+    "underscore": "^1.9.1",
+    "winston": "^2.4.0"
+  }
+}

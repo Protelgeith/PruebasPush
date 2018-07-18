@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor
+    xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" validUntil="2017-08-18T15:17:47Z" cacheDuration="PT604800S" entityID="api.staging.myquestis.com">
+    <md:SPSSODescriptor AuthnRequestsSigned="false" WantAssertionsSigned="false" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+        <md:KeyDescriptor use="encryption">
+            <ds:KeyInfo
+                xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                <ds:X509Data>
+                    <ds:X509Certificate>MIIDhTCCAm2gAwIBAgIJAL17w968T1D2MA0GCSqGSIb3DQEBCwUAMFkxCzAJBgNVBAYTAlVTMQswCQYDVQQIDAJTQzETMBEGA1UEBwwKQ2hhcmxlc3RvbjEQMA4GA1UECgwHUXVlc3RpczEWMBQGA1UEAwwNYXBpLmRldi5xLmNvbTAeFw0xNzA4MTcxOTE0MzhaFw0yMjA4MTYxOTE0MzhaMFkxCzAJBgNVBAYTAlVTMQswCQYDVQQIDAJTQzETMBEGA1UEBwwKQ2hhcmxlc3RvbjEQMA4GA1UECgwHUXVlc3RpczEWMBQGA1UEAwwNYXBpLmRldi5xLmNvbTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMya7uxRe3kCmYiR7UbResDiyhoBznU4E8KvNR3wnsqskMAHNTZMlZasEtjzHasZ1WaMl3oLL8ePrPV4jBgvMYxiexZVOQkY1aFGIE6Z3GLLELVDxveuGQIvScKUXHG7dOj3I0+Q51j42h0lP+zBAw5pCXVX9k/B38yILK5/Mjw0FcKiJXGUbAJCWMf6F6MBSaO7MSsxcsvPzB6jUzWKiHR/9h5bFEERO8Hyw3l6DluylwvlJxSxvWgk9s1IRqeDwqoYjosqBdhZonZZNFywiBstQ2ppZv2J5l4dHrj7dQsyGXd+ZHRkrnvneHrUsk5AEnYCWRndPbm+zD397BBNfkUCAwEAAaNQME4wHQYDVR0OBBYEFBW+k5Esz2G5YVLIkGJIbXoxK4UtMB8GA1UdIwQYMBaAFBW+k5Esz2G5YVLIkGJIbXoxK4UtMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAClWinaB7p17eKY9hU0U3TIvmpOQ+Rm2vrPsJ6Q3C7TrrxWY4pzWMr92Sj83qIdIiIjxQ+jEZd8aW9sRZgCIZv/7AArhDgEbog5jPeQsssiGmSBWhI4pV5ROBcWERtBrF1StAERS7dsIIXIKArM2rP4FoE1nbhUW61MjvvqN6ZehptFiVqCDtv6gKroFu3KjBHMN30PWGJDba9PL6aCgvbeIUQerICvviUcwI7WZXZKAEOTNQhABvcUFMhFxUpRuYlJJD7f7MxICFUwQBQJ1DAj92x461SF+ejSFf2Eim01LTdQOlYxkSzsJlTO9Qtx1IMfCecYzp3gICjn6ZXtNySE=</ds:X509Certificate>
+                </ds:X509Data>
+            </ds:KeyInfo>
+        </md:KeyDescriptor>
+        <md:NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified</md:NameIDFormat>
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://api.staging.myquestis.com/api/v1/sso/acs/cTgNjxsdCRfrQxb4" index="1"/>
+    </md:SPSSODescriptor>
+    <md:ContactPerson contactType="support">
+        <md:GivenName>Questis Support</md:GivenName>
+        <md:EmailAddress>support@myquestis.com</md:EmailAddress>
+    </md:ContactPerson>
+</md:EntityDescriptor>

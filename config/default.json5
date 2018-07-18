@@ -1,0 +1,19 @@
+{
+    database: {
+        connection_string: 'xx'
+    },
+    environment: {
+        "ALLOWORIGIN": "ALLOWORIGIN",
+        "USERPOOLID": "us-east-1_GwKgaY9SD",
+        "CLIENTID": "31voaj7phm89415f4ah5bmrbm9",
+        "JWTSECRET": "doingthisbecauseitssecure1111$",
+        "JWTEXPIRY": "30m",
+        "SSO": {
+            "QUESTIS": {
+                "DESTINATION": "https://api.staging.myquestis.com/api/v1/sso/acs/cTgNjxsdCRfrQxb4",
+                "SUBJECTRECIPIENT": "https://api.staging.myquestis.com/api/v1/sso/acs/cTgNjxsdCRfrQxb4"
+            }
+        },
+        "ENV": "DEV"
+    }
+}

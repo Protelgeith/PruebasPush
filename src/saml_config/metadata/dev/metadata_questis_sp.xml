@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" validUntil="2017-08-18T15:17:47Z" cacheDuration="PT604800S" entityID="api.staging.myquestis.com">
+    <md:SPSSODescriptor AuthnRequestsSigned="false" WantAssertionsSigned="false" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+        <md:KeyDescriptor use="encryption">
+            <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                <ds:X509Data>
+                    <ds:X509Certificate>MIIDAjCCAeoCCQCx0B186WePNDANBgkqhkiG9w0BAQsFADBDMQswCQYDVQQGEwJVUzELMAkGA1UECAwCU0MxDDAKBgNVBAcMA0NIUzEZMBcGA1UECgwQcXVlc3Rpcy10Y2ctdGVzdDAeFw0xODA3MDYxNzAwNTBaFw0xODA4MDUxNzAwNTBaMEMxCzAJBgNVBAYTAlVTMQswCQYDVQQIDAJTQzEMMAoGA1UEBwwDQ0hTMRkwFwYDVQQKDBBxdWVzdGlzLXRjZy10ZXN0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAu8+Lr/h3rD8cCvwqkn2U0B9dDk50p+nLkRV/uMv8m+xj4lJE6oH6Cu+GkcQr9F8ao+3/vW9dD16yof54HDPrUXo6656O/shxr/y/V5RINaZEMXuqcLoAjgyNbkKr8qaLBqIyEiwBRDixMPGZz7ArTOBJqo8tpSJsTjMZ/AXfa8qeJN7zcJJ+SnT7mKqxeQ9I7/Zpn88WpJydvoIA0DySFdgtJ0gW+Nrpkr55upjl5fv1sxh2546S65eIHavOuyAOmzcDPpc2X0g+X625/AyyCrC1Htypqi936j3hKr81/GY4E2I2pwZF/RtWBel4o6AkiQCT24+RLDfDqhHh0WIrJwIDAQABMA0GCSqGSIb3DQEBCwUAA4IBAQCeOijpIBbJsxnwYta3GKJ5i7iGDhCvqFbF6hKeG+3laPbBtYDh2yqYiRktU4BvSATZTalzCdlAQTvBQiEp7+tSLF+S979GqmGycAJEXu9+Z+2pyxefwBXVxT5kBGQCCP5QS/CUP/YFQkpwzXp0MUeF/pEYSOreXd9dSkKwLQLzjKZYOo1ZETck25RcnJEw8w3oNpfL9PSOd0HKMu6XnErSnX7ePjn1wBp9ZAvJuS+K9KNpsY+97KLRElqGlYtKpzG0Jpxz+q2l95mMu2bRhk4qZJR4fhRvY9sCmDcGZeZRR6NJmRfRxcvx760ZMwrOoJSah7a9l4g7LVqtXz/9wvRI</ds:X509Certificate>
+                </ds:X509Data>
+            </ds:KeyInfo>
+        </md:KeyDescriptor>
+        <md:NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified</md:NameIDFormat>
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://api.staging.myquestis.com/api/v1/sso/acs/cTgNjxsdCRfrQxb4" index="1"/>
+    </md:SPSSODescriptor>
+    <md:ContactPerson contactType="support">
+        <md:GivenName>Questis Support</md:GivenName>
+        <md:EmailAddress>support@myquestis.com</md:EmailAddress>
+    </md:ContactPerson>
+</md:EntityDescriptor>

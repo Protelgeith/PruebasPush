@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" validUntil="2017-08-18T15:17:47Z" cacheDuration="PT604800S" entityID="api.myquestis.com">
+  <md:SPSSODescriptor AuthnRequestsSigned="false" WantAssertionsSigned="false" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDgzCCAmugAwIBAgIJAJCZ8DgpgosPMA0GCSqGSIb3DQEBCwUAMFgxCzAJBgNVBAYTAlVTMQswCQYDVQQIDAJTQzEMMAoGA1UEBwwDQ0hTMRQwEgYDVQQKDAtRdWVzdGlzLmNvbTEYMBYGA1UEAwwPc3NvLnF1ZXN0aXMuY29tMB4XDTE3MDcwNTE0MjA1MVoXDTE5MDcwNTE0MjA1MVowWDELMAkGA1UEBhMCVVMxCzAJBgNVBAgMAlNDMQwwCgYDVQQHDANDSFMxFDASBgNVBAoMC1F1ZXN0aXMuY29tMRgwFgYDVQQDDA9zc28ucXVlc3Rpcy5jb20wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDn6774KTxAngdTP+eqEouL8B8bnECeVp5kelQgyHT53abzIDQ/0GGfnROPfF0QZQk6bHqVhKqyKC94VWyjS39Y9EZaLwyqgXEZ6Jqk6C9WRVwAd17wpEtlU85YrM5+aULTnCa0TJs+JZgUZ9T+N9ROGJZVEg6JCMACkLssccNCdr4jsWbsDybuPDkHPiY6pqueHfzgIASy5b0wd59Jvx+VVdBM9LsDIK5T99oQxF0is8nbTl4UZA5xGc+Yg3+tjqC7AplU89mdFobL/8I5MFRAh9whyngHQJldYk0Rxcaml5dn/hMuLV5HwU+zwADW25G7lPYGiBqQWr4csiUOgnipAgMBAAGjUDBOMB0GA1UdDgQWBBQYAVl+nEOnmLwi5sHodRh4Va/eOTAfBgNVHSMEGDAWgBQYAVl+nEOnmLwi5sHodRh4Va/eOTAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQByIWIn2bqYRtB2qQE9J5Dc1ImV556TeDbqpEtE7IIYZiV4n9uiIk3gn774R17iWa5id98+xS1HSw3n2aED/p0/epS/7621Duhir6oae22jMWOuwJFxvM3X6FtXGSHudHHObrth02WLFhHzv8XUNQqZpD2BCY8AhXse5o2gaebfymX7OQH03wc1PwYE8WFSj5erhxkt3lCL5qHueBf63mLqY6WdfKwE5Qh/OTgL8cO++QTgP+1LZDOwrCeu2tsAVm3bmopDmRASbcj4LZdBXKdWoX8OoNfY8N6axy/gZgSwyUcTDFDtIbd+LGtaGEUbp3cDk/88y963P2633vcn+9sj</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://api.myquestis.com/api/v1/sso/acs/zki6yOLFKePQhlyN" index="1"/>
+  </md:SPSSODescriptor>
+  <md:ContactPerson contactType="support">
+    <md:GivenName>Questis Support</md:GivenName>
+    <md:EmailAddress>support@myquestis.com</md:EmailAddress>
+  </md:ContactPerson>
+</md:EntityDescriptor>
